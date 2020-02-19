@@ -1,0 +1,2 @@
+Get Total Number fo Objects in Your S3 Bucket:
+aws s3 ls s3://your-s3-bucket-name --recursive --human-readable --summarize | grep -hi "total objects"
